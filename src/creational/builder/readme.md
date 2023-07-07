@@ -1,7 +1,7 @@
 # Builder 
 This pattern deals with simplifying the process of creating complex objects. Objects that take more than two or three parameters and many of them are not known ahead of time.
 In builder pattern we use independent common steps (that each step returns a usable object) to create an object.
-If we do not anticipate or require to have more than one representation in the future, then this pattern is unnecessary and lokks unnecessary.
+If we do not anticipate or require to have more than one representation in the future, then this pattern is unnecessary.
 
 ### Questions to ask before implementing this pattern:
 1. Does that object has more than 3 parameters?
