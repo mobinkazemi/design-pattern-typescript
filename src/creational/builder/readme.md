@@ -11,5 +11,20 @@ If we do not anticipate or require to have more than one representation in the f
 
 if the answer is no to any of them, You do not need to implement ***Builder Pattern***
 
+## Sample
+Builder pattern will change the implementaion of a complex object from this:
+```
+const myHouse = new House('John Street 14', 4, true, true);
+```
+to this:
+```
+const myHouse = new HouseBuilder('John Street 14')
+                     .setFloor(4)
+                     .makeParking()
+                     .makeGarden()
+                     .build();
+
+```
 ## Disadvantages
 1. A concrete Builder for each representation
+
