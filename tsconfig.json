@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "target": "ES5",
+    "module": "CommonJS",
+    // "rootDir": "./",
+    "moduleResolution": "node"
+  },
+  "include": ["./src/**/*.ts"]
+}
