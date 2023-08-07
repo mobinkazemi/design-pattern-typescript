@@ -1,4 +1,4 @@
-## Structural Pattern
+# Structural Pattern
 
 Structural design patterns are patterns that help us implement the relation between objects in specific ways (more convenient way) to handle these situations:
 
