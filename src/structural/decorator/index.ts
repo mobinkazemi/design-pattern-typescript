@@ -71,4 +71,5 @@ class Vehicle {
 
 const instance = new Vehicle();
 instance.addType("car").addBrand("BMW").addModel("M5").save();
+instance.addType("motorcycle").addBrand("Honda").addModel("CBR").save();
 instance.getAll();
